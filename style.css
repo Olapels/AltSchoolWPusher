@@ -1,0 +1,41 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navigation bar */
+  header {
+    background-color: #333; /* Set background color */
+    color: white; /* Set text color */
+    padding: 15px 20px; /* Add padding for spacing */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .logo img {
+    width: 40px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove default list styles */
+    display: block;
+  }
+  
+  nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-left: 20px; /* Add margin between list items */
+  }
+  
+  nav ul li a {
+    color: white; /* Set link text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for color change */
+  }
+  
+  nav ul li a:hover {
+    color: black; /* Change text color on hover */
+  }
+  
